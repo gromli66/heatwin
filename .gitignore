@@ -1,0 +1,36 @@
+# Data (tracked by DVC)
+data/raw/
+data/processed/
+data/interim/
+*.csv
+*.parquet
+*.pkl
+!data/.gitkeep
+
+# DVC
+/storage
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MLflow
+mlruns/
+
+# Profiling reports
+*.html
+!docs/*.html

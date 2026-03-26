@@ -1,0 +1,2 @@
+from src.logger_setup import setup_logging
+setup_logging()

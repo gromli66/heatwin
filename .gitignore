@@ -27,7 +27,3 @@ Thumbs.db
 
 # MLflow
 mlruns/
-
-# Profiling reports
-*.html
-!docs/*.html

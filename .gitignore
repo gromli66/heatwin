@@ -1,7 +1,4 @@
 # Data (tracked by DVC)
-data/raw/
-data/processed/
-data/interim/
 *.csv
 *.parquet
 *.pkl
